@@ -2,34 +2,23 @@
 
 Painel interativo de métricas do Instagram do **Jornal Milionários | Barreiro e região JM**.
 
+Repositório **novo**. Não substitui nenhum outro.
+
 Coleta: **01/01/2026 a 17/09/2026**  
 Por **Adriele Almeida** · Estrategista Digital
 
-## Como usar
+## Não precisa de Supabase
 
-Abra o arquivo `index.html` no navegador (computador ou celular). Não precisa instalar nada.
+Os dados das planilhas já estão dentro do `index.html`. Não usa banco de dados.
 
-Os dados das planilhas de publicações e stories já estão dentro do arquivo. **Não precisa de Supabase nem de banco de dados.**
+- Publicações: **1.460**
+- Stories: **4.731**
 
-- **Publicações:** 1.460 posts (Reels, Post, Carrossel)
-- **Stories:** 4.731 stories
+## Como deixar o painel no ar
 
-## O que o painel faz
+1. Baixe o arquivo `index.html` (painel completo).
+2. Neste repositório, clique em **Add file → Upload files**.
+3. Envie o `index.html` e confirme o commit.
+4. Abra o arquivo no GitHub ou, para um link público: **Settings → Pages → Deploy from branch `main`**.
 
-- Cards clicáveis com totais de cada métrica
-- Filtro por mês (e por tipo, nas publicações)
-- Gráficos de evolução, horário e maiores valores
-- Lista completa, com **Ver todas**
-- Link de cada post/story
-- Marcação `@` quando houver
-
-## Arquivos
-
-| Arquivo | Função |
-|---|---|
-| `index.html` | Painel pronto para abrir e publicar |
-| `src/` | Código-fonte do painel |
-
-## Privacidade
-
-Repositório criado apenas para este painel. Não substitui nenhum outro repositório.
+No computador, basta abrir o `index.html` no navegador.

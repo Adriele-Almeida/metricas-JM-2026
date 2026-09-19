@@ -8,10 +8,67 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <style>html,body{margin:0;background:#eef3f9;color:#0b2a4a;font-family:'Source Sans 3',system-ui,sans-serif}#boot{padding:24px;font-size:16px}</style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <p id="boot">Carregando o painel de métricas…</p>
+  <div class="goldbar"></div>
+  <header class="app">
+    <div class="wrap head">
+      <div class="brand">
+        <img src="logo-jm.jpg" alt="Jornal Milionários" />
+        <div class="vdiv"></div>
+        <div>
+          <p class="title">Instagram • Painel de Publicações • 2026</p>
+          <p class="sub">Coleta de Métricas • de 01/01/2026 a 17/09/2026</p>
+        </div>
+      </div>
+      <div class="credit">
+        <p class="title">Por Adriele Almeida</p>
+        <p class="sub">Estrategista Digital</p>
+      </div>
+    </div>
+  </header>
+  <main class="wrap">
+    <div class="tabs" id="modeTabs">
+      <button class="btn primary" id="modeFeed" type="button">Publicações</button>
+      <button class="btn" id="modeStories" type="button">Stories</button>
+    </div>
+    <section class="kpis" id="kpis"></section>
+    <section class="card">
+      <div class="filters">
+        <label class="field" id="typeField">
+          <span>Tipo de post</span>
+          <select id="typeFilter">
+            <option value="">Todos os tipos</option>
+            <option value="Carrossel do Instagram">Carrossel</option>
+            <option value="Imagem do Instagram">Post</option>
+            <option value="Reel do Instagram">Reels</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Mês</span>
+          <select id="monthFilter"></select>
+        </label>
+      </div>
+    </section>
+    <div class="tabs">
+      <button class="btn primary" id="tabResumo" type="button">Resumo</button>
+      <button class="btn" id="tabLista" type="button">Publicações</button>
+    </div>
+    <div id="resumo"></div>
+    <div id="lista" class="hidden"></div>
+  </main>
+  <div class="overlay" id="overlay">
+    <button class="scrim" type="button" aria-label="Fechar painel"></button>
+    <aside class="panel" role="dialog" aria-modal="true" id="panel"></aside>
+  </div>
+  <script src="data/posts.js"></script>
+  <script src="data/stories-1.js"></script>
+  <script src="data/stories-2.js"></script>
+  <script src="data/stories-3.js"></script>
+  <script src="data/stories-4.js"></script>
+  <script src="data/stories-5.js"></script>
+  <script src="data/stories-merge.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

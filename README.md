@@ -7,9 +7,9 @@ Repositório **novo**. Não substitui nenhum outro.
 Coleta: **01/01/2026 a 17/09/2026**  
 Por **Adriele Almeida** · Estrategista Digital
 
-## Não precisa de Supabase
+## Como abrir
 
-Abra o `index.html` no navegador. Os dados das planilhas já estão no repositório.
+Abra o `index.html` no navegador. Não precisa de Supabase nem de instalação.
 
 - Publicações: **1.460**
 - Stories: **4.731**
